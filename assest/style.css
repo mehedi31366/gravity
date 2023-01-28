@@ -1,0 +1,54 @@
+.btn-r{
+    padding: 17px 28.5px 19px 27px;
+    background: linear-gradient(#665DCD, #5FA4E6, #D2AB67 );
+    border-radius: 2px;
+    color: white;
+}
+.rgb:hover{
+    background: linear-gradient(#665DCD, #5FA4E6, #D2AB67 ); 
+    cursor: pointer; 
+}
+.bgi{
+    background-image: url(../images/Group\ 2.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: top -20px left -100px;
+}
+
+#bgi{
+    background-image: url(../images/div\ -\ Copy.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: top -29px  right 650px
+}
+.bgi-2{
+    background-image: url(../images/div\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: 300PX;
+    background-position: top -20px left 250px
+}
+#carouselExampleIndicators .carousel-indicators {
+    bottom: -70px;
+}
+#carouselExampleIndicators .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius:50%;
+}
+#carouselExampleIndicators .carousel-control-next,
+#carouselExampleIndicators .carousel-control-prev{
+    bottom: 336px;
+    margin: 0 535px;
+}
+#carouselExampleIndicators .carousel-control-next-icon{
+    background-image: url(./riht\ icon.svg);
+    border: solid #ffffff;
+    border-radius: 50%;
+    padding: 20px;
+}
+#carouselExampleIndicators .carousel-control-prev-icon{
+    background-image: url(./left\ icon.svg);
+    border: solid white;
+    border-radius: 50%;
+    padding: 20px;
+}
